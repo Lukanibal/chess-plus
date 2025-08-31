@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"GDD",
+  "name":"GDD",
+  "parent":{
+    "name":"Chess+",
+    "path":"Chess+.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
