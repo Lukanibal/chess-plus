@@ -28,7 +28,6 @@
   },
   "name":"Chess+",
   "resources":[
-    {"id":{"name":"GDD","path":"notes/GDD/GDD.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"id":{"name":"board_code","path":"scripts/board_code/board_code.yy",},},
