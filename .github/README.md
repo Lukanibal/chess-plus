@@ -1,4 +1,5 @@
 Chess+  
+-
 Starts as regular chess against a bot,  
 but the pieces and the board can be upgraded!    
 
