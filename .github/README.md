@@ -25,7 +25,7 @@ Knight Upgrades:
 Bishop Upgrades:  
 -
 1. **Bishop of Spiders** (add the Rook's movement to your own, making a web shaped movement pattern)  
-2. **Bishop of Horses** (you may turn duriong your movement once, but you must remain diagonal)  
+2. **Bishop of Horses** (you may turn during your movement once, but you must remain diagonal)  
 3. **Bishop of the Holy See** (you may perform Il Vaticano on any pieces on the board)
 4. **Bishop of the Crusade** (you may capture any pieces in your path, but you this piece is captured after moving if more than one piece is captured using this ability)  
   
