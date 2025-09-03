@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"macros_and_globals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"macros_and_globals",
+  "parent":{
+    "name":"Chess+",
+    "path":"Chess+.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

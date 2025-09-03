@@ -5,11 +5,49 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-  "instanceCreationOrder":[],
+  "instanceCreationOrder":[
+    {"name":"play_button","path":"rooms/rmMenu/rmMenu.yy",},
+    {"name":"inst_6F3D820F","path":"rooms/rmMenu/rmMenu.yy",},
+    {"name":"inst_41002795","path":"rooms/rmMenu/rmMenu.yy",},
+    {"name":"inst_2825419F","path":"rooms/rmMenu/rmMenu.yy",},
+  ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_78612F17","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_78612F17","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.68093103,"scaleY":0.680931,"spriteId":{"name":"sprLogo","path":"sprites/sprLogo/sprLogo.yy",},"x":555.6397,"y":113.71547,},
+        {"$GMRTextItem":"v3","%Name":"text_2E3338A2","alignment":0,"charSpacing":0.0,"colour":4278190335,"fontId":{"name":"fntURWGothicDemi","path":"fonts/fntURWGothicDemi/fntURWGothicDemi.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_2E3338A2","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Chess+ is a work in progress, please be patient as it develops","wrap":false,"x":367.5,"y":0.0,},
+      ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"play_button","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"play_button","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"text","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Play\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"action","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"play_game",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6F3D820F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F3D820F","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"text","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Check Pieces\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_41002795","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41002795","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"text","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Exit Chess+\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"action","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"close_game",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":416.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2825419F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2825419F","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"text","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Image Credit\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objMenuButton","path":"objects/objMenuButton/objMenuButton.yy",},"propertyId":{"name":"action","path":"objects/objMenuButton/objMenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"image_credit",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":736.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMREffectLayer":"","%Name":"Effect_1","depth":200,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
+        {"name":"g_Distort1Speed","type":0,"value":"0.01",},
+        {"name":"g_Distort2Speed","type":0,"value":"0.025",},
+        {"name":"g_Distort1Scale","type":0,"value":"13.3",},
+        {"name":"g_Distort1Scale","type":0,"value":"1.3",},
+        {"name":"g_Distort2Scale","type":0,"value":"33.3",},
+        {"name":"g_Distort2Scale","type":0,"value":"3.3",},
+        {"name":"g_Distort1Amount","type":0,"value":"2",},
+        {"name":"g_Distort2Amount","type":0,"value":"4",},
+        {"name":"g_ChromaSpreadAmount","type":0,"value":"1.5",},
+        {"name":"g_CamOffsetScale","type":0,"value":"1",},
+        {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
+      ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprChessboard","path":"sprites/sprChessboard/sprChessboard.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rmMenu",
   "parent":{
