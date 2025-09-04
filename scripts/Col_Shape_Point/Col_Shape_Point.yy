@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Col_Shape_Point",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Col_Shape_Point",
+  "parent":{
+    "name":"Dragonite",
+    "path":"folders/3DClick/Libraries/Dragonite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

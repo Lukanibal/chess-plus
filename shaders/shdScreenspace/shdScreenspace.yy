@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdScreenspace",
+  "name":"shdScreenspace",
+  "parent":{
+    "name":"testing",
+    "path":"folders/testing.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Col_Octree",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Col_Octree",
+  "parent":{
+    "name":"Dragonite",
+    "path":"folders/3DClick/Libraries/Dragonite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

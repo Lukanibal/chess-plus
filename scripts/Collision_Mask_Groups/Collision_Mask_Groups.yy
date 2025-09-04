@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Collision_Mask_Groups",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Collision_Mask_Groups",
+  "parent":{
+    "name":"Dragonite",
+    "path":"folders/3DClick/Libraries/Dragonite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

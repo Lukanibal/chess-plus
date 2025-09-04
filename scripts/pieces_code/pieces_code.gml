@@ -38,6 +38,7 @@ function King() constructor
 }
 
 
+#macro CELL_SIZE 64
 
 //Movement Patterns
 function Pattern( _h := 0, _v := 0, _d := 0, _k := false) constructor
@@ -46,4 +47,6 @@ function Pattern( _h := 0, _v := 0, _d := 0, _k := false) constructor
 	vertical   := _v;
 	diagonal   := _d;
 	knight	   := _k;///whether h and v can be swapped at will, allowing knightly movement
+	
+	
 }

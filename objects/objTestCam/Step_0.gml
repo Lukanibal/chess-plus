@@ -1,0 +1,1 @@
+look_dir -= global.mouse_sensitivity;

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdHeatWaves",
+  "name":"shdHeatWaves",
+  "parent":{
+    "name":"UI",
+    "path":"folders/UI.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

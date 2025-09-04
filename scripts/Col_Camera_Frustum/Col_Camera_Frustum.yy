@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Col_Camera_Frustum",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Col_Camera_Frustum",
+  "parent":{
+    "name":"Dragonite",
+    "path":"folders/3DClick/Libraries/Dragonite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

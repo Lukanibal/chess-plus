@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdColorTinter",
+  "name":"shdColorTinter",
+  "parent":{
+    "name":"UI",
+    "path":"folders/UI.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

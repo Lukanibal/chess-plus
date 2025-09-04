@@ -30,7 +30,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"z","filters":[],"listItems":[],"multiselect":false,"name":"z","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"blend","filters":[],"listItems":[],"multiselect":false,"name":"blend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
-    {"$GMObjectProperty":"v2","%Name":"bim","filters":[],"listItems":[],"multiselect":false,"name":"bim","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"active","filters":[],"listItems":[],"multiselect":false,"name":"active","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"white","filters":[],"listItems":[],"multiselect":false,"name":"white","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

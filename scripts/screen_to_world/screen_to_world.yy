@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"screen_to_world",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screen_to_world",
+  "parent":{
+    "name":"Snidr",
+    "path":"folders/3DClick/Libraries/Snidr.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

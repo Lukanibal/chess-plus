@@ -1,0 +1,1 @@
+#macro COLLISION_GROUP_WORLD (1 << 0)

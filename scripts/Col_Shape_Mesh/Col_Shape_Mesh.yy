@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Col_Shape_Mesh",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Col_Shape_Mesh",
+  "parent":{
+    "name":"Dragonite",
+    "path":"folders/3DClick/Libraries/Dragonite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
