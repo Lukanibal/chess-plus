@@ -55,4 +55,3 @@ if(mouse_check_button_pressed(mb_left))
 	}
 	global.collision_world.Remove(ray);
 }
-
