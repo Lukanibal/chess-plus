@@ -13,6 +13,8 @@ gpu_set_ztestenable(true);
 gpu_set_alphatestenable(true);
 gpu_set_alphatestref(20);
 
+background_surf = surface_create(display_get_gui_width(), display_get_gui_height());
+
 
 mouseX := mouse_x;
 mouseY := mouse_y;
