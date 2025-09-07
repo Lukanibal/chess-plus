@@ -29,7 +29,7 @@ Bishop Upgrades:
 + **Bishop of Spiders** (add the Rook's movement to your own, making a web shaped movement pattern)  
 + **Bishop of Horses** (you may turn during your movement once, but you must remain diagonal)  
 + **Bishop of the Holy See** (you may perform Il Vaticano on any pieces on the board)
-+ **Bishop of the Crusade** (you may capture any pieces in your path, but you this piece is captured after moving if more than one piece is captured using this ability)  
++ **Bishop of the Crusade** (you may capture any pieces in your path, but if you capture more than one, this piece is captured at the end of movement)  
   
 Queen Upgrades:
 -
