@@ -1,0 +1,1 @@
+np_initdiscord(DISCORD_APP_ID, false, "0");

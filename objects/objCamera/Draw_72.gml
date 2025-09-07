@@ -19,19 +19,6 @@ _mouse_y := display_mouse_get_y() - view_yport[0];
 
 var _mouse := convert_2d_to_3d(_view_mat, _proj_mat, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0));
 
-if(mouse_check_button_pressed(mb_left))
-{
-	var _inst := quickRaycast([objPieceParent],_mouse);
-	if(_inst != noone)
-	{
-		with(objPieceParent)
-		{
-			active := false;
-		}
-		
-		_inst.active := true;
-	}
-}
 
 if(mouse_check_button_pressed(mb_left))
 {
@@ -41,17 +28,47 @@ if(mouse_check_button_pressed(mb_left))
 	
 	if (rayResult != undefined){
 		
-		var _inst := instance_position(rayResult.point.x, rayResult.point.y, objPieceParent);
+		var _inst := instance_position(rayResult.point.x, rayResult.point.y, [objPieceParent, objPosition]);
 		if(_inst != noone)
 		{
-			with(objPieceParent)
+			
+			switch(_inst.object_index)
 			{
-				active := false;
-				image_blend := blend;
+				
+				case objKing:
+				case objQueen:
+				case objKnight:
+				case objRook:
+				case objBishop:
+				case objPawn:
+				case objPieceParent:
+				{
+					with(objPieceParent)
+					{
+						active := false;
+						image_blend := blend;
+					}
+					_inst.active := true;
+					_inst.image_blend := c_green;
+					break;
+				}
+					
+				case objPosition:
+				{
+					with(_inst)
+					{
+						parent_id.x := x;
+						parent_id.y := y;
+						parent_id.has_moved := true;
+						parent_id.active := false;
+						parent_id.move_shape();
+					}
+					break;
+				}
 			}
-			_inst.active := true;
-			_inst.image_blend := c_green;
+			
 		}
 	}
 	global.collision_world.Remove(ray);
 }
+

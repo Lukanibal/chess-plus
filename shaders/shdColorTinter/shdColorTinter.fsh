@@ -15,8 +15,8 @@ void main()
     
 	
     vec3 tintedColor = mix(baseColor.rgb, targetColor, distance * tintStrength);
-    
-	if(baseColor.a <= 0.1)
+
+	if(baseColor.a <= 0.7)
 	{
 		discard;
 	}

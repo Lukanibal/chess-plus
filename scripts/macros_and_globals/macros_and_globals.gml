@@ -160,21 +160,10 @@ function draw_sprite_repeated( _sprite, _subimage, _x, _y, _repeat_x, _repeat_y)
 #macro c_random make_color_rgb(random(255), random(255), random(255))
 
 
+#macro DISCORD_APP_ID "1413253116580724978"
 
+global.debug := false;
 
-function selcet_pieces_color()
-{
-	objColorWheel.variable := "game_color";
-}
-
-function selcet_board_color()
-{
-	objColorWheel.variable := "board_color";
-}
-
-
-
-
-
+global.aa := false;
 
 

@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprBlank",
-    "path":"sprites/sprBlank/sprBlank.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

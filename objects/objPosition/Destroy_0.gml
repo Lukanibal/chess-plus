@@ -1,0 +1,1 @@
+global.collision_world.Remove(object);

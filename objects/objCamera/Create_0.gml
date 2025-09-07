@@ -11,7 +11,11 @@ layer_force_draw_depth(true, 0);
 gpu_set_zwriteenable(true);
 gpu_set_ztestenable(true);
 gpu_set_alphatestenable(true);
-gpu_set_alphatestref(20);
+gpu_set_alphatestref(0);
+gpu_set_tex_filter(true);
+
+
+gpu_set_tex_mip_enable(mip_markedonly);
 
 background_surf = surface_create(display_get_gui_width(), display_get_gui_height());
 
@@ -35,24 +39,10 @@ display_set_gui_size(window_get_width(), window_get_height());
 shader_color := shader_get_uniform(shdColorTinter, "targetColor");
 shader_strength := shader_get_uniform(shdColorTinter, "tintStrength");
 
+uTime = shader_get_uniform(shdHeatWaves, "Time");
+uTexel = shader_get_uniform(shdHeatWaves, "Texel");
 
-shader_uniform_time = shader_get_uniform(shdStripes, "u_time");
-shader_uniform_color1 = shader_get_uniform(shdStripes, "u_color1");
-shader_uniform_color2 = shader_get_uniform(shdStripes, "u_color1");
-shader_uniform_stripe_width = shader_get_uniform(shdStripes, "u_stripeWidth");
-
-col1 := c_random;
-col2 := c_random;
-col3 := c_random;
-col4 := c_random;
-
-call_later(5, time_source_units_frames, function()
-{
-	col1 := merge_color(col1, c_random, 0.1);
-	col2 := merge_color(col2, c_random, 0.1);
-	col3 := merge_color(col3, c_random, 0.1);
-	col4 := merge_color(col4, c_random, 0.1);
-}, 
-true );
 
 tex := sprite_get_texture(sprBackground, 0);
+
+//shader_uniform_aa := shader_get_uniform(shdAA, )

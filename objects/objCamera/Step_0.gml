@@ -1,32 +1,26 @@
-if(keyboard_check(vk_up))
+/*
+if(keyboard_check_pressed(ord("P")))
 {
-	y -= 5;
+	switch(global.aa)
+	{
+		case false:
+		{
+			global.aa := true
+			display_reset(16, true);
+			break;
+		}
+			
+		case true:
+		{
+			global.aa := false
+			display_reset(0, true);
+			break;
+		}
+		
+	}
 }
+*/
 
-if(keyboard_check(vk_down))
-{
-	y += 5;
-}
-
-if(keyboard_check(vk_left))
-{
-	x -= 5;
-}
-
-if(keyboard_check(vk_right))
-{
-	x += 5;
-}
-
-if(keyboard_check(vk_shift))
-{
-	z --;
-}
-
-if(keyboard_check(vk_control))
-{
-	z ++;
-}
 
 if(mouse_check_button(mb_right))
 {
@@ -51,3 +45,10 @@ if(mouse_wheel_up())
 }
 
 look_dist := clamp(look_dist, 350, 500);
+
+z := clamp(z, 35, 500);
+
+if(keyboard_check_pressed(vk_escape))
+{
+	toggle_menu();
+}
