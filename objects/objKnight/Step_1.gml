@@ -22,6 +22,7 @@ if(active && array_length(spots) == 0)
 			{
 				array_push(spots, instance_create_depth(x-64, y-128, depth, objPosition, {parent_id: id}));
 			}
+			
 		}
 		else 
 		{

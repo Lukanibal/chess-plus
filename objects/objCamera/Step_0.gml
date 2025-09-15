@@ -1,4 +1,4 @@
-/*
+
 if(keyboard_check_pressed(ord("P")))
 {
 	switch(global.aa)
@@ -19,7 +19,9 @@ if(keyboard_check_pressed(ord("P")))
 		
 	}
 }
-*/
+
+
+
 
 
 if(mouse_check_button(mb_right))

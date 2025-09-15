@@ -1,12 +1,5 @@
-var _y := y;
-if(!has_moved)
-{
-	_y := white ? y - 128 : y + 64;
-}
-else 
-{
-	_y := white ? y - 64 : y + 64;
-}
+var _y := white? y - 64: y + 64;
+
 
 
 
@@ -25,10 +18,43 @@ if(active && array_length(spots) == 0)
 {
 	var _count := has_moved ? 1 : 2;
 	
-	repeat(_count)
+	if(white)
 	{
-		array_push(spots, instance_create_depth(x, _y, depth, objPosition, {parent_id: id}));
-		_y += 64;
+		for(var _i = 0; _i < _count; _i ++)
+		{
+			if(instance_place(x, _y, [objTileBlack, objTileWhite]))
+			{
+				var _inst_check := instance_place(x, _y, objPieceParent)
+				if(_inst_check == noone)
+				{
+					array_push(spots, instance_create_depth(x, _y, depth, objPosition, {parent_id: id}));
+					_y -= 64;
+				}
+				else 
+				{
+					break;
+				}
+			}
+		}
+	}
+	else 
+	{
+		for(var _i = 0; _i < _count; _i ++)
+		{
+			if(instance_place(x, _y, [objTileBlack, objTileWhite]))
+			{
+				var _inst_check := instance_place(x, _y, objPieceParent)
+				if(_inst_check == noone)
+				{
+					array_push(spots, instance_create_depth(x, _y, depth, objPosition, {parent_id: id}));
+					_y += 64;
+				}
+				else 
+				{
+					break;
+				}
+			}
+		}
 	}
 	
 }

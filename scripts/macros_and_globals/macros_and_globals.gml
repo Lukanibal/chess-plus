@@ -20,6 +20,7 @@ ini_open("settings.ini");
 global.mouse_sensitivity := ini_read_real("SETTINGS", "MOUSE", 5);
 global.game_color := ini_read_real("SETTINGS", "game_color", #E5B789);
 global.board_color := ini_read_real("SETTINGS", "board_color", #E5B789);
+global.background := ini_read_real("SETTINGS", "background", 1);
 
 ini_close();
 
@@ -165,5 +166,7 @@ function draw_sprite_repeated( _sprite, _subimage, _x, _y, _repeat_x, _repeat_y)
 global.debug := false;
 
 global.aa := false;
+
+global.active := noone;
 
 

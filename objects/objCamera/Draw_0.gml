@@ -8,22 +8,40 @@ if(!surface_exists(background_surf))
 }
 
 
+if(!surface_exists(fx_surf))
+{
+	fx_surf = surface_create(display_width, display_height);
+}
+
+
 surface_set_target(background_surf);
 surface_depth_disable(true);
 draw_clear(c_fuchsia);
 
+
+
+//draw_sprite_stretched(sprBackground,global.background,0,0, display_width, display_height);
+draw_sprite_tiled(sprBackground, global.background, 0, 0);
+
+
+surface_reset_target();	
+surface_copy(application_surface, 0, 0, background_surf);
+
+surface_set_target(fx_surf);
 shader_set(shdHeatWaves);
 shader_set_uniform_f(uTime, current_time/10.);
 shader_set_uniform_f(uTexel, texture_get_texel_width(tex), texture_get_texel_height(tex));
 
-draw_sprite_stretched(sprBackground,0,0,0, display_width, display_height);
 
-shader_reset();
+draw_surface_stretched(background_surf, -128, -128, display_width + 256, display_height + 256);
 
-surface_reset_target();	
-surface_copy(application_surface,0,0,background_surf);
+shader_reset()
 
-surface_set_target(application_surface)
+surface_reset_target();
+
+surface_copy(application_surface, 0, 0 ,fx_surf);
+
+surface_set_target(application_surface);
 surface_depth_disable(false);
 camera_apply( cam);
 

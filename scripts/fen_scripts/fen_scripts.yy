@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fen_scripts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fen_scripts",
+  "parent":{
+    "name":"FENPLUS",
+    "path":"folders/FENPLUS.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

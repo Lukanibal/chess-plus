@@ -25,3 +25,46 @@ move_shape := function()
 	global.collision_world.Update(self.object);
 
 }
+
+get_captured := function()
+{
+	
+	var _initial := string_char_at(object_get_name(self.object_index), 4);
+	if(object_index == objKnight)
+	{
+		_initial := "N";
+	}
+	
+	
+	array_push(white ? global.black_captures : global.white_captures, _initial);
+	global.active.goto := [x, y]
+	global.active.active := false;
+	global.active := noone;
+	instance_destroy();
+}
+
+check_check := function()
+{
+	objChessController.checking := id;
+	
+	var _count := instance_number(objPieceParent);
+	for(var _i := 0; _i < _count; _i++)
+	{
+		var _inst := instance_id_get(_i);
+		with(_inst)
+		{
+			active := true;
+			call_later(1, time_source_units_frames, function()
+			{
+				active := false;
+			})
+		}
+	}
+}
+
+captor := noone;
+
+goto := [x, y];
+
+dir := 90;
+

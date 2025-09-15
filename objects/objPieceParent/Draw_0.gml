@@ -1,5 +1,5 @@
 
-var _mat := matrix_build(x, y, 0, 90, direction, 0, 1, 1, 1);
+var _mat := matrix_build(x, y, 0, 90, dir, 0, 1, 1, 1);
 matrix_set(matrix_world, _mat);
 
 draw_sprite_ext(sprite_index, image_index, 0, 0, image_xscale, 1, 0, global.game_color, 1.0);

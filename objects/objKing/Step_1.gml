@@ -1,3 +1,11 @@
+if(objChessController.check && objChessController.checking == id)
+{
+	with(objPieceParent)
+	{
+		active := false;
+	}
+	active := true;
+}
 
 if(!active && array_length(spots) > 0)
 {

@@ -26,4 +26,15 @@ if(surface_get_width(application_surface) != window_get_width() ||
 	}
 
 
+if(surface_get_width(background_surf) != window_get_width() ||
+	surface_get_height(background_surf) != window_get_height())
+	{
+		surface_resize(background_surf, window_get_width(), window_get_height());
+	}
 
+
+if(surface_get_width(fx_surf) != window_get_width() ||
+	surface_get_height(fx_surf) != window_get_height())
+	{
+		surface_resize(fx_surf, window_get_width(), window_get_height());
+	}

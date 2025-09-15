@@ -14,20 +14,17 @@ event_inherited();
 
 draw := function()
 {
-	if(!has_moved)
+	_mat := matrix_build(0, 0, 1, 0, 0, 0, 1, 1, 1);
+	matrix_set(matrix_world, _mat);
+	
+	array_foreach(spots, function(_val, _ind)
 	{
-		
-		_y := white ? y - 128 : y + 64;
-		repeat(2)
+		with(_val)
 		{
-			draw_sprite_ext(sprPieceMask, 0, x, _y, 0.5, 0.5, 0, c_dkgray, 0.5);
-			_y += 64;
+			draw_sprite_ext(sprite_index, 0, x, y, 0.5, 0.5, 0, c_white, 1.);
 		}
-	}
-	else 
-	{
-		_y := white ? y - 64 : y + 64;
-		draw_sprite_ext(sprPieceMask, 0, x, _y, 0.5, 0.5, 0, c_dkgray, 0.5);
-	}
+	});
+	
+	matrix_set(matrix_world, matrix_build_identity());
 }
 

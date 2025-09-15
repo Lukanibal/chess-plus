@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"objChessController",
+  "%Name":"objBackgroundChanger",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objChessController",
+  "name":"objBackgroundChanger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bot",
-    "path":"folders/Bot.yy",
+    "name":"UI",
+    "path":"folders/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprBackground",
+    "path":"sprites/sprBackground/sprBackground.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

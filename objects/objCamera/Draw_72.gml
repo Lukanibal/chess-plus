@@ -1,13 +1,13 @@
 
 
-var _look_at_x := room_width/2;
-var _look_at_y := room_height/2;
+var _look_at_x := 512;
+var _look_at_y := 480;
 
 x := _look_at_x - look_dist * dcos(look_dir);
 y := _look_at_y + look_dist * dsin(look_dir);
 
 var _view_mat := matrix_build_lookat(x, y, z, _look_at_x, _look_at_y , 0, 0, 0, 1);
-var _proj_mat := matrix_build_projection_perspective_fov(-70, -(1366 / 768), 1, 32000.0);
+var _proj_mat := matrix_build_projection_perspective_fov(-70, -(display_get_gui_width() / display_get_gui_height()), 1, 32000.0);
 
 camera_set_view_mat( cam, _view_mat);
 camera_set_proj_mat( cam, _proj_mat);
@@ -43,6 +43,26 @@ if(mouse_check_button_pressed(mb_left))
 				case objPawn:
 				case objPieceParent:
 				{
+					
+					if(global.active != noone)
+					{
+						if(_inst == global.active)
+						{
+							_inst.active := false;
+							global.active := noone;
+							break;
+						}
+						else 
+						{
+							if(global.active.white != _inst.white && position_meeting(_inst.x, _inst.y, objPosition))
+							{
+								_inst.captor := global.active;
+								_inst.get_captured();
+								break;
+							}	
+						}
+					}
+					
 					with(objPieceParent)
 					{
 						active := false;
@@ -50,6 +70,7 @@ if(mouse_check_button_pressed(mb_left))
 					}
 					_inst.active := true;
 					_inst.image_blend := c_green;
+					global.active := _inst;
 					break;
 				}
 					
@@ -57,8 +78,7 @@ if(mouse_check_button_pressed(mb_left))
 				{
 					with(_inst)
 					{
-						parent_id.x := x;
-						parent_id.y := y;
+						parent_id.goto := [x, y];
 						parent_id.has_moved := true;
 						parent_id.active := false;
 						parent_id.move_shape();

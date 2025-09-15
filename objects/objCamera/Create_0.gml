@@ -5,7 +5,7 @@ look_dist := 350;
 cam := camera_create_view(x, y, 1366, 768);
 view_camera[0] := cam;
 
-display_reset(8, true);
+display_reset(16, true);
 layer_force_draw_depth(true, 0);
 
 gpu_set_zwriteenable(true);
@@ -18,7 +18,7 @@ gpu_set_tex_filter(true);
 gpu_set_tex_mip_enable(mip_markedonly);
 
 background_surf = surface_create(display_get_gui_width(), display_get_gui_height());
-
+fx_surf := surface_create(display_get_gui_width(), display_get_gui_height());
 
 mouseX := mouse_x;
 mouseY := mouse_y;
