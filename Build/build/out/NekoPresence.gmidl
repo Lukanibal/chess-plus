@@ -1,0 +1,67 @@
+[gml_api]
+module NekoPresence;
+
+
+[lib_map = { linux: [ libnekopresence.so ], windows: [ NekoPresence_x64.dll ], macos: [ libNekoPresence.dylib ] }]
+group {
+    [global] const np_steam_app_id_empty : string = "0";
+
+    [global] const DISCORD_REPLY_NO : real = 0;
+
+    [global] const DISCORD_REPLY_YES : real = 1;
+
+    [global] const DISCORD_REPLY_IGNORE : real = 2;
+
+    [global] const DISCORD_PARTY_PRIVACY_PRIVATE : real = 0;
+
+    [global] const DISCORD_PARTY_PRIVACY_PUBLIC : real = 1;
+
+    [global] const DISCORD_MAX_BUTTONS : real = 2;
+
+    [global, bind = gmval]
+    function __np_initdll() : real;
+
+    [global, bind = gmval]
+    function __np_shutdown() : real;
+
+    [global, bind = gmval]
+    function np_initdiscord([allow_raw_ptr] arg0 : cstring, arg1 : real, [allow_raw_ptr] arg2 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_setpresence([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring, [allow_raw_ptr] arg2 : cstring, [allow_raw_ptr] arg3 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_update() : real;
+
+    [global, bind = gmval, external = RegisterCallbacks]
+    function __np_registercallbacks_do_not_call([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring, [allow_raw_ptr] arg2 : cstring, [allow_raw_ptr] arg3 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_setpresence_more([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring, arg2 : real) : real;
+
+    [global, bind = gmval]
+    function np_clearpresence() : real;
+
+    [global, bind = gmval]
+    function np_registergame([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_registergame_steam([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_setpresence_secrets([allow_raw_ptr] arg0 : cstring, [allow_raw_ptr] arg1 : cstring, [allow_raw_ptr] arg2 : cstring) : real;
+
+    [global, bind = gmval]
+    function np_setpresence_partyparams(arg0 : real, arg1 : real, [allow_raw_ptr] arg2 : cstring, arg3 : real) : real;
+
+    [global, bind = gmval]
+    function np_respond([allow_raw_ptr] arg0 : cstring, arg1 : real) : real;
+
+    [global, bind = gmval]
+    function np_setpresence_timestamps(arg0 : real, arg1 : real, arg2 : real) : real;
+
+    [global, bind = gmval]
+    function np_setpresence_buttons(arg0 : real, [allow_raw_ptr] arg1 : cstring, [allow_raw_ptr] arg2 : cstring) : real;
+
+}
+

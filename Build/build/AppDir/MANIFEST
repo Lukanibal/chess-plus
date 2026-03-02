@@ -1,0 +1,187 @@
+dir "/usr" 0755 0 0
+dir "/usr/bin" 0755 0 0
+dir "/usr/lib" 0755 0 0
+dir "/usr/share" 0755 0 0
+file "/usr/lib/libwebgpu_dawn.so" 0644 0 0 usr/lib/libwebgpu_dawn.so
+file "/usr/lib/libdbus-1.so.3" 0644 0 0 usr/lib/libdbus-1.so.3
+file "/usr/lib/libkeyutils.so.1" 0644 0 0 usr/lib/libkeyutils.so.1
+file "/usr/lib/liblzma.so.5" 0644 0 0 usr/lib/liblzma.so.5
+file "/usr/lib/libtirpc.so.3" 0644 0 0 usr/lib/libtirpc.so.3
+file "/usr/lib/libFLAC.so.8" 0644 0 0 usr/lib/libFLAC.so.8
+file "/usr/lib/libXau.so.6" 0644 0 0 usr/lib/libXau.so.6
+file "/usr/lib/libXcursor.so.1" 0644 0 0 usr/lib/libXcursor.so.1
+file "/usr/lib/libXdmcp.so.6" 0644 0 0 usr/lib/libXdmcp.so.6
+file "/usr/lib/libXext.so.6" 0644 0 0 usr/lib/libXext.so.6
+file "/usr/lib/libXfixes.so.3" 0644 0 0 usr/lib/libXfixes.so.3
+file "/usr/lib/libXi.so.6" 0644 0 0 usr/lib/libXi.so.6
+file "/usr/lib/libXrandr.so.2" 0644 0 0 usr/lib/libXrandr.so.2
+file "/usr/lib/libXrender.so.1" 0644 0 0 usr/lib/libXrender.so.1
+file "/usr/lib/libXss.so.1" 0644 0 0 usr/lib/libXss.so.1
+file "/usr/lib/libasyncns.so.0" 0644 0 0 usr/lib/libasyncns.so.0
+file "/usr/lib/libatomic.so.1" 0644 0 0 usr/lib/libatomic.so.1
+file "/usr/lib/libbrotlicommon.so.1" 0644 0 0 usr/lib/libbrotlicommon.so.1
+file "/usr/lib/libbrotlidec.so.1" 0644 0 0 usr/lib/libbrotlidec.so.1
+file "/usr/lib/libbsd.so.0" 0644 0 0 usr/lib/libbsd.so.0
+file "/usr/lib/libcrypto.so.1.1" 0644 0 0 usr/lib/libcrypto.so.1.1
+file "/usr/lib/libcurl-gnutls.so.4" 0644 0 0 usr/lib/libcurl-gnutls.so.4
+file "/usr/lib/libdecor-0.so.0" 0644 0 0 usr/lib/libdecor-0.so.0
+file "/usr/lib/libffi.so.7" 0644 0 0 usr/lib/libffi.so.7
+file "/usr/lib/libgcrypt.so.20" 0644 0 0 usr/lib/libgcrypt.so.20
+file "/usr/lib/libgnutls.so.30" 0644 0 0 usr/lib/libgnutls.so.30
+file "/usr/lib/libgssapi_krb5.so.2" 0644 0 0 usr/lib/libgssapi_krb5.so.2
+file "/usr/lib/libhogweed.so.6" 0644 0 0 usr/lib/libhogweed.so.6
+file "/usr/lib/libidn2.so.0" 0644 0 0 usr/lib/libidn2.so.0
+file "/usr/lib/libk5crypto.so.3" 0644 0 0 usr/lib/libk5crypto.so.3
+file "/usr/lib/libkrb5.so.3" 0644 0 0 usr/lib/libkrb5.so.3
+file "/usr/lib/libkrb5support.so.0" 0644 0 0 usr/lib/libkrb5support.so.0
+file "/usr/lib/liblz4.so.1" 0644 0 0 usr/lib/liblz4.so.1
+file "/usr/lib/libmd.so.0" 0644 0 0 usr/lib/libmd.so.0
+file "/usr/lib/libnettle.so.8" 0644 0 0 usr/lib/libnettle.so.8
+file "/usr/lib/libnghttp2.so.14" 0644 0 0 usr/lib/libnghttp2.so.14
+file "/usr/lib/libnsl.so.2" 0644 0 0 usr/lib/libnsl.so.2
+file "/usr/lib/libogg.so.0" 0644 0 0 usr/lib/libogg.so.0
+file "/usr/lib/libopenal.so.1" 0644 0 0 usr/lib/libopenal.so.1
+file "/usr/lib/libopus.so.0" 0644 0 0 usr/lib/libopus.so.0
+file "/usr/lib/libp11-kit.so.0" 0644 0 0 usr/lib/libp11-kit.so.0
+file "/usr/lib/libpsl.so.5" 0644 0 0 usr/lib/libpsl.so.5
+file "/usr/lib/libpulse.so.0" 0644 0 0 usr/lib/libpulse.so.0
+file "/usr/lib/libsamplerate.so.0" 0644 0 0 usr/lib/libsamplerate.so.0
+file "/usr/lib/libsndfile.so.1" 0644 0 0 usr/lib/libsndfile.so.1
+file "/usr/lib/libssh2.so.1" 0644 0 0 usr/lib/libssh2.so.1
+file "/usr/lib/libssl.so.1.1" 0644 0 0 usr/lib/libssl.so.1.1
+file "/usr/lib/libsystemd.so.0" 0644 0 0 usr/lib/libsystemd.so.0
+file "/usr/lib/libtasn1.so.6" 0644 0 0 usr/lib/libtasn1.so.6
+file "/usr/lib/libunistring.so.2" 0644 0 0 usr/lib/libunistring.so.2
+file "/usr/lib/libvorbis.so.0" 0644 0 0 usr/lib/libvorbis.so.0
+file "/usr/lib/libvorbisenc.so.2" 0644 0 0 usr/lib/libvorbisenc.so.2
+file "/usr/lib/libwrap.so.0" 0644 0 0 usr/lib/libwrap.so.0
+file "/usr/lib/libxkbcommon.so.0" 0644 0 0 usr/lib/libxkbcommon.so.0
+file "/usr/lib/libzstd.so.1" 0644 0 0 usr/lib/libzstd.so.1
+file "/usr/lib/libpulsecommon-14.2.so" 0644 0 0 usr/lib/libpulsecommon-14.2.so
+dir "/usr/share/applications" 0755 0 0
+dir "/usr/share/icons" 0755 0 0
+dir "/usr/share/doc" 0755 0 0
+dir "/usr/share/icons/hicolor" 0755 0 0
+dir "/usr/share/doc/libasyncns0" 0755 0 0
+dir "/usr/share/doc/libatomic1" 0755 0 0
+dir "/usr/share/doc/libbrotli1" 0755 0 0
+dir "/usr/share/doc/libbsd0" 0755 0 0
+dir "/usr/share/doc/libcurl3-gnutls" 0755 0 0
+dir "/usr/share/doc/libdbus-1-3" 0755 0 0
+dir "/usr/share/doc/libdecor-0-0" 0755 0 0
+dir "/usr/share/doc/libffi7" 0755 0 0
+dir "/usr/share/doc/libflac8" 0755 0 0
+dir "/usr/share/doc/libgcrypt20" 0755 0 0
+dir "/usr/share/doc/libgnutls30" 0755 0 0
+dir "/usr/share/doc/libgssapi-krb5-2" 0755 0 0
+dir "/usr/share/doc/libhogweed6" 0755 0 0
+dir "/usr/share/doc/libidn2-0" 0755 0 0
+dir "/usr/share/doc/libk5crypto3" 0755 0 0
+dir "/usr/share/doc/libkeyutils1" 0755 0 0
+dir "/usr/share/doc/libkrb5-3" 0755 0 0
+dir "/usr/share/doc/libkrb5support0" 0755 0 0
+dir "/usr/share/doc/liblz4-1" 0755 0 0
+dir "/usr/share/doc/liblzma5" 0755 0 0
+dir "/usr/share/doc/libmd0" 0755 0 0
+dir "/usr/share/doc/libnettle8" 0755 0 0
+dir "/usr/share/doc/libnghttp2-14" 0755 0 0
+dir "/usr/share/doc/libnsl2" 0755 0 0
+dir "/usr/share/doc/libogg0" 0755 0 0
+dir "/usr/share/doc/libopenal1" 0755 0 0
+dir "/usr/share/doc/libopus0" 0755 0 0
+dir "/usr/share/doc/libp11-kit0" 0755 0 0
+dir "/usr/share/doc/libpsl5" 0755 0 0
+dir "/usr/share/doc/libpulse0" 0755 0 0
+dir "/usr/share/doc/libsamplerate0" 0755 0 0
+dir "/usr/share/doc/libsndfile1" 0755 0 0
+dir "/usr/share/doc/libssh2-1" 0755 0 0
+dir "/usr/share/doc/libssl1.1" 0755 0 0
+dir "/usr/share/doc/libsystemd0" 0755 0 0
+dir "/usr/share/doc/libtasn1-6" 0755 0 0
+dir "/usr/share/doc/libtirpc3" 0755 0 0
+dir "/usr/share/doc/libunistring2" 0755 0 0
+dir "/usr/share/doc/libvorbis0a" 0755 0 0
+dir "/usr/share/doc/libvorbisenc2" 0755 0 0
+dir "/usr/share/doc/libwrap0" 0755 0 0
+dir "/usr/share/doc/libxau6" 0755 0 0
+dir "/usr/share/doc/libxcursor1" 0755 0 0
+dir "/usr/share/doc/libxdmcp6" 0755 0 0
+dir "/usr/share/doc/libxext6" 0755 0 0
+dir "/usr/share/doc/libxfixes3" 0755 0 0
+dir "/usr/share/doc/libxi6" 0755 0 0
+dir "/usr/share/doc/libxkbcommon0" 0755 0 0
+dir "/usr/share/doc/libxrandr2" 0755 0 0
+dir "/usr/share/doc/libxrender1" 0755 0 0
+dir "/usr/share/doc/libxss1" 0755 0 0
+dir "/usr/share/doc/libzstd1" 0755 0 0
+file "/usr/share/doc/libasyncns0/copyright" 0644 0 0 usr/share/doc/libasyncns0/copyright
+file "/usr/share/doc/libatomic1/copyright" 0644 0 0 usr/share/doc/libatomic1/copyright
+file "/usr/share/doc/libbrotli1/copyright" 0644 0 0 usr/share/doc/libbrotli1/copyright
+file "/usr/share/doc/libbsd0/copyright" 0644 0 0 usr/share/doc/libbsd0/copyright
+file "/usr/share/doc/libcurl3-gnutls/copyright" 0644 0 0 usr/share/doc/libcurl3-gnutls/copyright
+file "/usr/share/doc/libdbus-1-3/copyright" 0644 0 0 usr/share/doc/libdbus-1-3/copyright
+file "/usr/share/doc/libdecor-0-0/copyright" 0644 0 0 usr/share/doc/libdecor-0-0/copyright
+file "/usr/share/doc/libffi7/copyright" 0644 0 0 usr/share/doc/libffi7/copyright
+file "/usr/share/doc/libflac8/copyright" 0644 0 0 usr/share/doc/libflac8/copyright
+file "/usr/share/doc/libgcrypt20/copyright" 0644 0 0 usr/share/doc/libgcrypt20/copyright
+file "/usr/share/doc/libgnutls30/copyright" 0644 0 0 usr/share/doc/libgnutls30/copyright
+file "/usr/share/doc/libgssapi-krb5-2/copyright" 0644 0 0 usr/share/doc/libgssapi-krb5-2/copyright
+file "/usr/share/doc/libhogweed6/copyright" 0644 0 0 usr/share/doc/libhogweed6/copyright
+file "/usr/share/doc/libidn2-0/copyright" 0644 0 0 usr/share/doc/libidn2-0/copyright
+file "/usr/share/doc/libk5crypto3/copyright" 0644 0 0 usr/share/doc/libk5crypto3/copyright
+file "/usr/share/doc/libkeyutils1/copyright" 0644 0 0 usr/share/doc/libkeyutils1/copyright
+file "/usr/share/doc/libkrb5-3/copyright" 0644 0 0 usr/share/doc/libkrb5-3/copyright
+file "/usr/share/doc/libkrb5support0/copyright" 0644 0 0 usr/share/doc/libkrb5support0/copyright
+file "/usr/share/doc/liblz4-1/copyright" 0644 0 0 usr/share/doc/liblz4-1/copyright
+file "/usr/share/doc/liblzma5/copyright" 0644 0 0 usr/share/doc/liblzma5/copyright
+file "/usr/share/doc/libmd0/copyright" 0644 0 0 usr/share/doc/libmd0/copyright
+file "/usr/share/doc/libnettle8/copyright" 0644 0 0 usr/share/doc/libnettle8/copyright
+file "/usr/share/doc/libnghttp2-14/copyright" 0644 0 0 usr/share/doc/libnghttp2-14/copyright
+file "/usr/share/doc/libnsl2/copyright" 0644 0 0 usr/share/doc/libnsl2/copyright
+file "/usr/share/doc/libogg0/copyright" 0644 0 0 usr/share/doc/libogg0/copyright
+file "/usr/share/doc/libopenal1/copyright" 0644 0 0 usr/share/doc/libopenal1/copyright
+file "/usr/share/doc/libopus0/copyright" 0644 0 0 usr/share/doc/libopus0/copyright
+file "/usr/share/doc/libp11-kit0/copyright" 0644 0 0 usr/share/doc/libp11-kit0/copyright
+file "/usr/share/doc/libpsl5/copyright" 0644 0 0 usr/share/doc/libpsl5/copyright
+file "/usr/share/doc/libpulse0/copyright" 0644 0 0 usr/share/doc/libpulse0/copyright
+file "/usr/share/doc/libsamplerate0/copyright" 0644 0 0 usr/share/doc/libsamplerate0/copyright
+file "/usr/share/doc/libsndfile1/copyright" 0644 0 0 usr/share/doc/libsndfile1/copyright
+file "/usr/share/doc/libssh2-1/copyright" 0644 0 0 usr/share/doc/libssh2-1/copyright
+file "/usr/share/doc/libssl1.1/copyright" 0644 0 0 usr/share/doc/libssl1.1/copyright
+file "/usr/share/doc/libsystemd0/copyright" 0644 0 0 usr/share/doc/libsystemd0/copyright
+file "/usr/share/doc/libtasn1-6/copyright" 0644 0 0 usr/share/doc/libtasn1-6/copyright
+file "/usr/share/doc/libtirpc3/copyright" 0644 0 0 usr/share/doc/libtirpc3/copyright
+file "/usr/share/doc/libunistring2/copyright" 0644 0 0 usr/share/doc/libunistring2/copyright
+file "/usr/share/doc/libvorbis0a/copyright" 0644 0 0 usr/share/doc/libvorbis0a/copyright
+file "/usr/share/doc/libvorbisenc2/copyright" 0644 0 0 usr/share/doc/libvorbisenc2/copyright
+file "/usr/share/doc/libwrap0/copyright" 0644 0 0 usr/share/doc/libwrap0/copyright
+file "/usr/share/doc/libxau6/copyright" 0644 0 0 usr/share/doc/libxau6/copyright
+file "/usr/share/doc/libxcursor1/copyright" 0644 0 0 usr/share/doc/libxcursor1/copyright
+file "/usr/share/doc/libxdmcp6/copyright" 0644 0 0 usr/share/doc/libxdmcp6/copyright
+file "/usr/share/doc/libxext6/copyright" 0644 0 0 usr/share/doc/libxext6/copyright
+file "/usr/share/doc/libxfixes3/copyright" 0644 0 0 usr/share/doc/libxfixes3/copyright
+file "/usr/share/doc/libxi6/copyright" 0644 0 0 usr/share/doc/libxi6/copyright
+file "/usr/share/doc/libxkbcommon0/copyright" 0644 0 0 usr/share/doc/libxkbcommon0/copyright
+file "/usr/share/doc/libxrandr2/copyright" 0644 0 0 usr/share/doc/libxrandr2/copyright
+file "/usr/share/doc/libxrender1/copyright" 0644 0 0 usr/share/doc/libxrender1/copyright
+file "/usr/share/doc/libxss1/copyright" 0644 0 0 usr/share/doc/libxss1/copyright
+file "/usr/share/doc/libzstd1/copyright" 0644 0 0 usr/share/doc/libzstd1/copyright
+dir "/usr/share/icons/hicolor/16x16" 0755 0 0
+dir "/usr/share/icons/hicolor/32x32" 0755 0 0
+dir "/usr/share/icons/hicolor/64x64" 0755 0 0
+dir "/usr/share/icons/hicolor/128x128" 0755 0 0
+dir "/usr/share/icons/hicolor/256x256" 0755 0 0
+dir "/usr/share/icons/hicolor/scalable" 0755 0 0
+dir "/usr/share/icons/hicolor/16x16/apps" 0755 0 0
+dir "/usr/share/icons/hicolor/32x32/apps" 0755 0 0
+dir "/usr/share/icons/hicolor/64x64/apps" 0755 0 0
+dir "/usr/share/icons/hicolor/128x128/apps" 0755 0 0
+dir "/usr/share/icons/hicolor/256x256/apps" 0755 0 0
+dir "/usr/share/icons/hicolor/scalable/apps" 0755 0 0
+file "/usr/bin/Chess+" 0755 0 0 usr/bin/Chess+
+slink "/AppRun" 0755 0 0 usr/bin/Chess+
+dir "/usr/bin/assets" 0755 0 0
+file "/usr/bin/assets/NekoPresence.gml" 0644 0 0 usr/bin/assets/NekoPresence.gml
+file "/usr/bin/assets/Chess+.Default.wad" 0644 0 0 usr/bin/assets/Chess+.Default.wad
+file "/usr/bin/assets/libnekopresence.so" 0644 0 0 usr/bin/assets/libnekopresence.so
+file "/usr/bin/assets/Chess+.wadlist.json" 0644 0 0 usr/bin/assets/Chess+.wadlist.json
